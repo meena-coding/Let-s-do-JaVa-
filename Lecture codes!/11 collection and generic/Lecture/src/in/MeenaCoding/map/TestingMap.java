@@ -15,5 +15,9 @@ public class TestingMap {
         map.put("Mayank",40);
 
         System.out.println(map.size());
+        System.out.println(map.get("Bharat"));
+        System.out.println(map.containsKey("Mintu"));
+        System.out.println(map.containsKey("Aryan"));
+
     }
 }
