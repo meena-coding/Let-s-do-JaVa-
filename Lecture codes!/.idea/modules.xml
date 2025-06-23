@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10 Exception and file handling/10 Exception and file handling.iml" filepath="$PROJECT_DIR$/10 Exception and file handling/10 Exception and file handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11 collection and generic/11 collection and generic.iml" filepath="$PROJECT_DIR$/11 collection and generic/11 collection and generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6 class and object/6 class and object.iml" filepath="$PROJECT_DIR$/6 class and object/6 class and object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7 control statements maths and String/7 control statements maths and String.iml" filepath="$PROJECT_DIR$/7 control statements maths and String/7 control statements maths and String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8 Encapsulation and inheritance/8 Encapsulation and inheritance.iml" filepath="$PROJECT_DIR$/8 Encapsulation and inheritance/8 Encapsulation and inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9 Abstraction and Polymorphism/9 Abstraction and Polymorphism.iml" filepath="$PROJECT_DIR$/9 Abstraction and Polymorphism/9 Abstraction and Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lecture codes!.iml" filepath="$PROJECT_DIR$/.idea/Lecture codes!.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstjavacode/firstjavacode.iml" filepath="$PROJECT_DIR$/firstjavacode/firstjavacode.iml" />
+    </modules>
+  </component>
+</project>

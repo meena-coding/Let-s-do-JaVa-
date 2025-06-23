@@ -2,7 +2,7 @@ package in.MeenaCoding.VarArgs;
 
 public class VarArgs {
     public static void main(String... args) {
-        System.out.printf("sum of the Number is: %d",sum(4,3,2,4,5,633,33,4,4,3,2));
+        System.out.printf("sum of the Number is: %d\n",sum(4,3,2,4,5,633,33,4,4,3,2));
         System.out.printf("sum of the Number is: %d",sum(4,3,2,4,5,633,33,4,4,3,2));
 
 
