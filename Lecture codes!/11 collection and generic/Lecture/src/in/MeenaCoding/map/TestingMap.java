@@ -18,6 +18,14 @@ public class TestingMap {
         System.out.println(map.get("Bharat"));
         System.out.println(map.containsKey("Mintu"));
         System.out.println(map.containsKey("Aryan"));
+        System.out.println(map.remove("Swati"));
+        System.out.println(map.size());
+
+        for (String key : map.keySet()) {
+
+            System.out.printf("%s : %s\n",key,map.get(key));
+
+        }
 
     }
 }
