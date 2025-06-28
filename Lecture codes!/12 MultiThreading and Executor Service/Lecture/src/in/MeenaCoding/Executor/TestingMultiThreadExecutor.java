@@ -1,13 +1,11 @@
 package in.MeenaCoding.Executor;
-
-import in.MeenaCoding.MultiThreading.Runnable.PrintTask;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class TestingMultiThreadExecutor {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         ExecutorService service = Executors.newFixedThreadPool(3);
 
@@ -16,6 +14,12 @@ public class TestingMultiThreadExecutor {
             service.submit(task);
         }
 
-        service.shutdown(); 
+        service.shutdown();
+        System.out.println("\n**************1");
+
+        if (!service.awaitTermination(10, TimeUnit.SECONDS)){
+            System.out.println("\n**************2");
+            service.shutdownNow();
+        }
     }
 }
