@@ -1,4 +1,4 @@
-public class revisionChallenges47 {
+class mergeAndPrintSortedArrays {
 
     public static void main(String[] args) {
 

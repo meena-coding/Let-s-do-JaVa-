@@ -1,4 +1,4 @@
-public class revisionChallenges43 {
+class SortedElementsOfArray {
 
     public static void main(String[] args) {
 

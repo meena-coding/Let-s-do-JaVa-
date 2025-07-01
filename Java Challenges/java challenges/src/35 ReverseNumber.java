@@ -1,5 +1,5 @@
 import java.util.*;
-class revisionChallenges35{
+class ReverseNumber{
     public static void main(String[] args) {
 
         //---> Create a Program that reverse the Number.  345--> 543

@@ -1,4 +1,4 @@
-public class revisionChallenges45 {
+class ReverseOfArray {
 
     public static void main(String[] args) {
 

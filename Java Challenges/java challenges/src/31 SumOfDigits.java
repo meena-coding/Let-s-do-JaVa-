@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges31 {
+class SumOfDigits {
 
     public static void main(String[] args) {
 

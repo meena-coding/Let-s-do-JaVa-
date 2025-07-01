@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class revisionChallenges38 {
+class PalindromeVerifier {
     public static void main(String[] args) {
 
         //---> Create a Program that verify if the number is palindrome

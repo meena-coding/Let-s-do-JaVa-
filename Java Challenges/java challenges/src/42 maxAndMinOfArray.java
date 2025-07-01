@@ -1,4 +1,4 @@
-public class revisionChallenges42 {
+class maxAndMinOfArray {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges39 {
+class PatternPrinter {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

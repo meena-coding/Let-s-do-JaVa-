@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges37 {
+class ArmstrongNumber {
     public static void main(String[] args) {
 
         //--> Check if the entered number is ARMSTRONG number

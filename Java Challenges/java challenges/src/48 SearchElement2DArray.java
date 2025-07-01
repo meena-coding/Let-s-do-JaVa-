@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class revisionChallenges48 {
+class SearchElement2DArray {
 
     public static void main(String[] args) {
 

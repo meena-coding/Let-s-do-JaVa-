@@ -1,8 +1,9 @@
-public class revisionChallenges49 {
+class sumAndAverage2DArray {
 
     public static void main(String[] args) {
 
         //Create a program to get sum and average of 2D array
+
         System.out.println("Welcome to Sum and Average of 2D Array!\n");
         int[][] numArr = ArrayUtility.input2DArray();
         double sum = sum(numArr);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges32 {
+class LCM {
     public static void main(String[] args) {
 
         //Create a Program to get LCM of Two numbers.

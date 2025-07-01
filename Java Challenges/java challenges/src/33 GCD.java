@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges33 {
+class GCD {
     public static void main(String[] args) {
 
         //Create a Program to get GCD of Two numbers.

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class revisionChallenges34 {
+class PrimeNumberChecker {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges28 {
+class MultiplicationTable {
     public static void main(String[] args) {
 
         //----> develop a program that prints multiplication table for a given number

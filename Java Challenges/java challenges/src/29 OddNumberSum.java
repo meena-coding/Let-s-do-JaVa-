@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges29 {
+class OddNumberSum {
 
     public static void main(String[] args) {
 

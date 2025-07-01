@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class revisionChallenges44 {
+class deleteNumberFromArray {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class revisionChallenges44 {
 
     public static int[] deleteNumber(int[] numArray, int numToDelete) {
 
-        int occ = revisionChallenges41.noOfOccurrences(numArray, numToDelete);
+        int occ = NoOfOccurrences.noOfOccurrences(numArray, numToDelete);
 
         if (occ == 0) {
             return numArray;

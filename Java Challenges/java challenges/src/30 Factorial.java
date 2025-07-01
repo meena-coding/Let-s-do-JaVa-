@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges30 {
+class Factorial {
     public static void main(String[] args) {
 
         //---> Write a function that calculates the Factorial of a Given Number

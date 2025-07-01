@@ -1,4 +1,4 @@
-public class revisionChallenges50 {
+class sumOfDiagonalElement {
 
     public static void main(String[] args) {
 

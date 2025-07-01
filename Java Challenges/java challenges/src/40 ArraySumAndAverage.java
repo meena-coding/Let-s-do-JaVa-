@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class revisionChallenges40 {
+class ArraySumAndAverage {
     public static void main(String[] args) {
 
 

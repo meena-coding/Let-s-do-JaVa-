@@ -1,4 +1,4 @@
-public class revisionChallenges46 {
+class palindromeArray {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class revisionChallenges36 {
+class FibonacciSeries {
     public static void main(String[] args) {
 
         //---> Create A program to print fibonacci series till the entered number.
