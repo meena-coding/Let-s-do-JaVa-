@@ -8,22 +8,12 @@ package in.MeenaCoding.DSA.Sorting.Algos;
  * number to find = 1
  */
 
-
 import java.util.Scanner;
 
 public class BinarySearch {
 
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-//        int[] arr = {-8, -5, 3, 4, 7, 11, 15};
-
-        int[] arr;
-        int n = sc.nextInt();
-        arr = new int[n];
-        
-
+        int[] arr = {-8, -5, 3, 4, 7, 11, 15};
         System.out.println(search(arr,2));
     }
 
