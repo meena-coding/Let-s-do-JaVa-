@@ -1,5 +1,7 @@
 package in.MeenaCoding.LeetCode13;
 
+import java.util.Scanner;
+
 /**
  * Roman numerals are represented by seven different
  * symbols: I, V, X, L, C, D and M.
@@ -64,6 +66,13 @@ class RomanToIntegerUsingSwitch {
         System.out.println("III: " + converter.romanToInt("III"));
         System.out.println("LVIII: " + converter.romanToInt("LVIII"));
         System.out.println("MCMXCIV: " + converter.romanToInt("MCMXCIV"));
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Those above are some examples!");
+        System.out.print("\n Please Enter the Roman Number: ");
+        String s = sc.nextLine();
+
+        System.out.println(s +": "+ converter.romanToInt(s));
     }
 
     public int romanToInt(String s){

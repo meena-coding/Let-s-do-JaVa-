@@ -1,3 +1,5 @@
+package in.MeenaCoding.LeetCode1;
+
 import java.util.Arrays;
 
 /**
@@ -24,7 +26,7 @@ import java.util.Arrays;
  * valid answer exists.
  */
 
-class TwoSum {
+class TwoSumArray {
 
     public static int[] twoSum(int[] nums, int target){
 
