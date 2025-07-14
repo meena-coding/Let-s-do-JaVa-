@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class mergeTwoSortedList {
 
     static class ListNode {
@@ -22,6 +24,33 @@ class mergeTwoSortedList {
         }
         temp.next = list1 != null ? list1 : list2;
         return dummy.next;
+    }
+
+    public static void main(String[] args) {
+
+
+        ListNode a = new ListNode();  //This is just to understand the Syntax of LinkedList
+        ListNode b = new ListNode();
+        ListNode c = new ListNode();
+        ListNode d = new ListNode();
+
+        a.value = 1;
+        b.value = 2;
+        c.value = 3;
+        d.value = 4;
+
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        ListNode current = a;
+
+        while (current != null){
+            System.out.print(current.value + " -> ");
+            if(current.next == null){
+                System.out.print("null");
+            }
+            current = current.next;
+        }
     }
 
 }
