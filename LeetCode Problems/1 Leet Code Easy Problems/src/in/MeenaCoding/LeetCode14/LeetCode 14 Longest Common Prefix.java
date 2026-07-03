@@ -1,3 +1,5 @@
+package in.MeenaCoding.LeetCode14;
+
 /**
  * Write a function to find the longest common
  * prefix string amongst an array of strings. If
@@ -26,7 +28,7 @@ class LongestCommonPrefix {
         String result = "";
 
         for (int i = 0; i < str[0].length(); i++) {
-            for (int j = 0; j < str.length; j++) {
+            for (int j = 1; j < str.length; j++) {
 
                 if(str[j].length() <= i || str[0].charAt(i) != str[j].charAt(i)){
                     return result;
