@@ -35,7 +35,7 @@ class longestConsecutiveSequence {
 
         int[] case1 = new int[]{1,3,4,5,6,7,8,3,2,1,3,4,5,6,7,8,9,10};
 
-        System.out.println("This is the longest consecutive sequence in your Array:-" + LCS.longestConsecutiveSeq(case1));
+        System.out.println("This is the longest consecutive sequence in your Array:- " + LCS.longestConsecutiveSeq(case1));
     }
 
 }
