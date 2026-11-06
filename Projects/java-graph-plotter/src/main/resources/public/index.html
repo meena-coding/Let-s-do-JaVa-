@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Plotter - Java Graph Plotter</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons for modern aesthetic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar containing inputs & controls -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-solid fa-chart-line logo-icon"></i>
+                    <h1>Graph Plotter</h1>
+                </div>
+                <p class="subtitle">Java Math Engine Backend</p>
+            </header>
+
+            <section class="expression-section">
+                <div class="section-header">
+                    <h2>Expressions</h2>
+                    <button id="add-expr-btn" class="btn btn-primary btn-round" title="Add Expression">
+                        <i class="fa-solid fa-plus"></i> Add
+                    </button>
+                </div>
+                <!-- Interactive expression list -->
+                <div id="expression-list" class="expression-list">
+                    <!-- Loaded dynamically via app.js -->
+                </div>
+            </section>
+
+            <!-- Configuration / Graph settings section -->
+            <section class="settings-section">
+                <div class="section-header">
+                    <h2>Graph Viewport</h2>
+                    <button id="reset-view-btn" class="btn btn-secondary btn-small" title="Reset to default coordinates">
+                        <i class="fa-solid fa-house"></i> Reset
+                    </button>
+                </div>
+                <div class="viewport-inputs">
+                    <div class="input-group">
+                        <label for="xmin-input">X Min</label>
+                        <input type="number" id="xmin-input" step="any" value="-10">
+                    </div>
+                    <div class="input-group">
+                        <label for="xmax-input">X Max</label>
+                        <input type="number" id="xmax-input" step="any" value="10">
+                    </div>
+                    <div class="input-group">
+                        <label for="ymin-input">Y Min</label>
+                        <input type="number" id="ymin-input" step="any" value="-6">
+                    </div>
+                    <div class="input-group">
+                        <label for="ymax-input">Y Max</label>
+                        <input type="number" id="ymax-input" step="any" value="6">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick help for math parser support -->
+            <section class="help-section">
+                <div class="section-header">
+                    <h2>Supported Syntax</h2>
+                </div>
+                <div class="help-content">
+                    <div class="help-row">
+                        <span class="badge">Operators</span>
+                        <code>+</code> <code>-</code> <code>*</code> <code>/</code> <code>^</code>
+                    </div>
+                    <div class="help-row">
+                        <span class="badge">Functions</span>
+                        <code>sin(x)</code> <code>cos(x)</code> <code>tan(x)</code>
+                    </div>
+                    <div class="help-row">
+                        <span class="badge">Advanced</span>
+                        <code>log(x)</code> <code>exp(x)</code> <code>sqrt(x)</code> <code>abs(x)</code>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <!-- Main Graph Drawing Area -->
+        <main class="canvas-container">
+            <canvas id="graph-canvas"></canvas>
+            
+            <!-- Mouse Coordinates Overlaid -->
+            <div id="coord-tooltip" class="coord-tooltip">
+                X: 0.00, Y: 0.00
+            </div>
+
+            <!-- Canvas Floating Controls -->
+            <div class="canvas-controls">
+                <button id="zoom-in-btn" class="control-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
+                <button id="zoom-out-btn" class="control-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
+                <button id="pan-reset-btn" class="control-btn" title="Center on Origin"><i class="fa-solid fa-crosshairs"></i></button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
